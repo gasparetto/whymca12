@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<org.whymca.lib.CustomTextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="80dp"
+		android:text="@string/whymca"
+		android:textSize="60dp"
+		custom:typeface="Rio Oro.ttf" />
+
+	<org.whymca.lib.CustomTextView
+		android:layout_width="wrap_content"
+		android:layout_height="0dip"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:layout_weight="0.1"
+		android:gravity="center_horizontal"
+		android:text="@string/the_mobile_revolution"
+		android:textSize="22dp"
+		custom:typeface="Rio Oro.ttf" />
+
+	<org.whymca.lib.CustomButton
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:onClick="onLiteFunctionClick"
+		android:text="@string/lite_function"
+		custom:typeface="Rio Oro.ttf" />
+
+	<org.whymca.lib.CustomButton
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:onClick="onProFunctionClick"
+		android:text="@string/pro_function"
+		custom:typeface="Rio Oro.ttf" />
+
+	<org.whymca.lib.CustomButton
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="40dp"
+		android:layout_marginTop="10dp"
+		android:onClick="onAboutClick"
+		android:text="@string/about"
+		custom:typeface="Rio Oro.ttf" />
+
+</LinearLayout>

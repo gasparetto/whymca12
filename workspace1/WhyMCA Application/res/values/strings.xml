@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WhyMCA Application</string>
+	<string name="app_version">Version 1.0</string>
+	<string name="whymca">WHYMCA</string>
+	<string name="the_mobile_revolution">THE MOBILE REVOLUTION</string>
+	<string name="lite_function">LITE Function</string>
+	<string name="pro_function">PRO Function</string>
+	<string name="about">About</string>
+	<string name="buy_the_pro_version">Buy the PRO version!</string>
+	<string name="back">back</string>
+
+</resources>
